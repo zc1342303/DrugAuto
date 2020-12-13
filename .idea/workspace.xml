@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d862654b-5d54-4a9b-bef8-5792bf7f69de" name="Default Changelist" comment="" />
+    <list default="true" id="d862654b-5d54-4a9b-bef8-5792bf7f69de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/download.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/download.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +40,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lW7kw6K32Qf0HuHceJ81wVayPn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,18 +60,20 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/html" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/brand" />
       <recent name="$PROJECT_DIR$/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,27 +86,64 @@
       <updated>1607701141000</updated>
       <workItem from="1607701152614" duration="1632000" />
       <workItem from="1607702970952" duration="3202000" />
-      <workItem from="1607752157540" duration="2170000" />
+      <workItem from="1607752157540" duration="8054000" />
+      <workItem from="1607764208877" duration="6849000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607705940199">
+    <state x="184" y="42" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607765369737">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1607701499030" />
-    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.795@0.25.1440.795" timestamp="1607705940199" />
+    <state x="184" y="42" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.795@0.25.1440.795" timestamp="1607765369737" />
     <state x="414" y="228" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607706210759">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="414" y="228" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.795@0.25.1440.795" timestamp="1607706210759" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1607701283727">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="327" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607794775248">
+      <screen x="0" y="25" width="1440" height="795" />
+    </state>
+    <state x="327" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.795@0.25.1440.795" timestamp="1607794775248" />
+    <state x="304" y="25" key="CommitChangelistDialog2" timestamp="1607754898443">
+      <screen x="0" y="25" width="1440" height="795" />
+    </state>
+    <state x="304" y="25" key="CommitChangelistDialog2/0.25.1440.795@0.25.1440.795" timestamp="1607754898443" />
+    <state x="229" y="92" key="SettingsEditor" timestamp="1607763076216">
+      <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607701283727" />
+    <state x="229" y="92" key="SettingsEditor/0.25.1440.795@0.25.1440.795" timestamp="1607763076216" />
     <state x="421" y="82" width="597" height="735" key="find.popup" timestamp="1607702156940">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

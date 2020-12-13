@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.79.0">
-    <title>Carousel Template · Bootstrap v5.0</title>
+    <title>DrugAuto</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 
@@ -40,18 +40,12 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">DrugAuto</a>
+      <a class="navbar-brand" href="index.html">DrugAuto</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="index.html">主页</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">下载</a>
-          </li>
           <li>
             <a class="nav-link" href="#">使用教程</a>
           </li>
@@ -62,15 +56,13 @@
             <a class="nav-link" href="service.html">联系客服</a>
           </li>
           <!-- 这里暂时不用 -->
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+<!--          </li>-->
           <!-- 这里暂时不用 -->
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="button" onclick="myFunction()">下载</button>
-          <p id="demo">test</p>
+          <button class="btn btn-success" type="button" onclick=download()>下载</button>
         </form>
       </div>
     </div>
@@ -87,35 +79,42 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/></svg>
+        <!-- svg原标签内<rect width="100%" height="100%" fill="#777"/> -->
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/><img src="../img/bg1.svg" alt="img"/></svg>
 
         <div class="container">
           <div class="carousel-caption text-start">
             <h1>CTD格式文档处理系统</h1>
-            <p>根据CTD格式技术文件要求，注册人员需要对提交的数以千计的PDF格式文档进行特殊标注，耗费大量的人力与时间成本。市面上现有的PDF文档编辑工具，缺乏对CTD标准的针对性，基于上述痛点，开发CTD格式文档处理系统，支持PC端，自动化完成文档标注，提高药品注册人员的工作效率。</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">立即下载</a></p>
+            <p>
+              CTD即通用技术文档，是申请人向药监注册机构申请临床、上市等的必然途径。《药品注册管理办法》对CTD格式注册申报资料有明确规定，申请人需要充分提供研究文档，证明研究的真实性。DrugAuto是一款面向CTD格式，自动化完成注册申报文档处理的系统。
+            </p>
+            <p><a class="btn btn-lg btn-primary" href="../downloads/appendix_v0.3.exe" role="button">立即下载</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/><img src="../img/bg2.svg" alt="img"/></svg>
 
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <h1>药品注册的强大助手</h1>
+            <p>
+              CTD格式资料撰写要求对所附图谱前面建立交叉索引表，同时对所附图谱进行唯一的标注。药品注册人员需要标注数以千计的PDF格式图谱，耗费大量的人力与时间成本。DrugAuto可自动化完成图谱标注，大幅提高申报效率。
+            </p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">使用教程</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/><img src="../img/bg3.svg" alt="img"/></svg>
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <h1>一键完成图谱标注操作</h1>
+            <p>
+              DrugAuto批量获取电子图谱所在位置，借助结构化的Excel表格，填写后可一键完成图谱标注操作，并生成交叉索引表，合并电子图谱，便于电子形式、纸质形式注册申报资料的递交。
+            </p>
+            <p><a class="btn btn-lg btn-primary" href="password.html" role="button">获取密码</a></p>
           </div>
         </div>
       </div>
@@ -214,7 +213,7 @@
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; 2019-2020 zc.</p>
   </footer>
 </main>
 
