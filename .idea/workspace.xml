@@ -17,15 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d862654b-5d54-4a9b-bef8-5792bf7f69de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg3.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/download.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/download.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,15 +58,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/brand" />
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/brand" />
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,8 +80,17 @@
       <workItem from="1607701152614" duration="1632000" />
       <workItem from="1607702970952" duration="3202000" />
       <workItem from="1607752157540" duration="8054000" />
-      <workItem from="1607764208877" duration="6849000" />
+      <workItem from="1607764208877" duration="8015000" />
+      <workItem from="1607952419309" duration="1309000" />
     </task>
+    <task id="LOCAL-00001" summary="Try to deploy.">
+      <created>1607841850677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607841850677</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,14 +121,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Try to deploy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Try to deploy." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="42" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607765369737">
+    <state x="184" y="42" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607953678474">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1607701499030" />
-    <state x="184" y="42" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.795@0.25.1440.795" timestamp="1607765369737" />
+    <state x="184" y="42" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.795@0.25.1440.795" timestamp="1607953678474" />
     <state x="414" y="228" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607706210759">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
@@ -135,10 +138,10 @@
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="327" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.795@0.25.1440.795" timestamp="1607794775248" />
-    <state x="304" y="25" key="CommitChangelistDialog2" timestamp="1607754898443">
+    <state x="304" y="25" key="CommitChangelistDialog2" timestamp="1607841850439">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
-    <state x="304" y="25" key="CommitChangelistDialog2/0.25.1440.795@0.25.1440.795" timestamp="1607754898443" />
+    <state x="304" y="25" key="CommitChangelistDialog2/0.25.1440.795@0.25.1440.795" timestamp="1607841850439" />
     <state x="229" y="92" key="SettingsEditor" timestamp="1607763076216">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
