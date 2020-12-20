@@ -37,10 +37,12 @@
   <body>
     
 <header>
+  <!-- 顶部导航栏 -->
   <div id="nav-placeholder"></div>
 </header>
 
 <main>
+  <!-- 轮播图 -->
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <ol class="carousel-indicators">
       <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
@@ -184,18 +186,22 @@
 
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2019-2020 zc.</p>
+    <div id="footer-placeholder"></div>
   </footer>
 </main>
 
-    <script>
-      $(function() {
-        $("#nav-placeholder").load("nav.html");
-      });
-    </script>
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="../js/download.js"></script>
-      
-  </body>
+  <script>
+    $(function() {
+      $("#nav-placeholder").load("component/nav.html");
+    });
+  </script>
+  <script>
+    $(function() {
+      $("#footer-placeholder").load("component/footer.html");
+    });
+  </script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/download.js"></script>
+
+</body>
 </html>

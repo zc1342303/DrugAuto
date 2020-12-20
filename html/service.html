@@ -11,13 +11,10 @@
   <!-- Custom styles for this template -->
   <link href="../css/drugauto.css" rel="stylesheet">
   <style>
-    p {
-      padding-top: 1rem;
-      padding-bottom: 0.5rem;
-    }
     #wechatQRImg {
       width: 400px;
     }
+
   </style>
 </head>
 <body>
@@ -26,19 +23,28 @@
 </header>
 
 <main>
-  <div>
-    <p>扫码加微信，联系客服</p>
-  </div>
-  <div>
-    <img id="wechatQRImg" src="../img/wechat_service.jpeg"/>
+  <div class="container content"></div>
+    <div>
+      <p>扫码加微信，联系客服</p>
+      <img id="wechatQRImg" src="../img/wechat_service.jpeg"/>
+    </div>
   </div>
 
+  <!-- FOOTER -->
+  <footer class="container">
+    <div id="footer-placeholder"></div>
+  </footer>
 </main>
 
-<script>
-  $(function() {
-    $("#nav-placeholder").load("nav.html");
-  });
-</script>
+  <script>
+    $(function() {
+      $("#nav-placeholder").load("component/nav.html");
+    });
+    $(function() {
+      $("#footer-placeholder").load("component/footer.html");
+    });
+  </script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/download.js"></script>
 </body>
 </html>

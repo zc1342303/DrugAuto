@@ -17,13 +17,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d862654b-5d54-4a9b-bef8-5792bf7f69de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/wechat_service.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-1.10.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/component/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/drugauto.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/drugauto.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/README.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/component/README.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/manual.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manual.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/component/nav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/password.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/service.html" afterDir="false" />
     </list>
@@ -77,13 +78,14 @@
       <recent name="$PROJECT_DIR$/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/component" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:4040/Project/html/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:4040/Project/html/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -108,7 +110,7 @@
       <workItem from="1608428235105" duration="3925000" />
       <workItem from="1608443464532" duration="4399000" />
       <workItem from="1608450086376" duration="776000" />
-      <workItem from="1608451150588" duration="5222000" />
+      <workItem from="1608451150588" duration="10887000" />
     </task>
     <task id="LOCAL-00001" summary="Try to deploy.">
       <created>1607841850677</created>
@@ -124,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608449946233</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="所有页面添加了导航栏.">
+      <created>1608459258935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608459258936</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,18 +177,19 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Try to deploy." />
     <MESSAGE value="加入了使用说明." />
-    <option name="LAST_COMMIT_MESSAGE" value="加入了使用说明." />
+    <MESSAGE value="所有页面添加了导航栏." />
+    <option name="LAST_COMMIT_MESSAGE" value="所有页面添加了导航栏." />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="183" key="#HTTP_Proxy" timestamp="1608440289799">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="492" y="183" key="#HTTP_Proxy/0.25.1440.795@0.25.1440.795" timestamp="1608440289799" />
-    <state x="184" y="109" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608454863061">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="184" y="42" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608477206882">
+      <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="184" y="109" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1608454863061" />
-    <state x="184" y="42" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.795@0.25.1440.795" timestamp="1607953678474" />
+    <state x="184" y="42" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.795@0.25.1440.795" timestamp="1608477206882" />
     <state x="414" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608451947142">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -189,11 +199,11 @@
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="327" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.795@0.25.1440.795" timestamp="1607794775248" />
-    <state x="304" y="25" key="CommitChangelistDialog2" timestamp="1608449945971">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="304" y="25" width="831" height="795" key="CommitChangelistDialog2" timestamp="1608459258658">
+      <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="304" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1608449945971" />
-    <state x="304" y="25" key="CommitChangelistDialog2/0.25.1440.795@0.25.1440.795" timestamp="1607841850439" />
+    <state x="304" y="25" width="831" height="795" key="CommitChangelistDialog2/0.25.1440.795@0.25.1440.795" timestamp="1608459258658" />
     <state x="507" y="233" key="FileChooserDialogImpl" timestamp="1608443113624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

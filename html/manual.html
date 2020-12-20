@@ -16,17 +16,29 @@
   <div id="nav-placeholder"></div>
 </header>
 <main>
+  <div class="container content">
+    <div id="readme"></div>
+  </div>
 
+  <!-- FOOTER -->
+  <footer class="container">
+    <div id="footer-placeholder"></div>
+  </footer>
 </main>
-<p>说明书.</p>
-  <div id="readme"></div>
-<script>
-  $(function() {
-    $("#nav-placeholder").load("nav.html");
-  });
-  $(function() {
-    $("#readme").load("README.html");
-  })
-</script>
+
+
+  <script>
+    $(function() {
+      $("#nav-placeholder").load("component/nav.html");
+    });
+    $(function() {
+      $("#readme").load("component/README.html");
+    })
+    $(function() {
+      $("#footer-placeholder").load("component/footer.html");
+    });
+  </script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/download.js"></script>
 </body>
 </html>
