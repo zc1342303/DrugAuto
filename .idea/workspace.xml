@@ -17,16 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d862654b-5d54-4a9b-bef8-5792bf7f69de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/component/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/drugauto.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/drugauto.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/README.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/component/README.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/manual.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manual.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/component/nav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/password.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vue.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -110,7 +105,19 @@
       <workItem from="1608428235105" duration="3925000" />
       <workItem from="1608443464532" duration="4399000" />
       <workItem from="1608450086376" duration="776000" />
-      <workItem from="1608451150588" duration="10887000" />
+      <workItem from="1608451150588" duration="11109000" />
+      <workItem from="1608560063135" duration="23000" />
+      <workItem from="1608560268156" duration="31000" />
+      <workItem from="1608560334891" duration="67000" />
+      <workItem from="1608560432782" duration="24000" />
+      <workItem from="1608560482491" duration="78000" />
+      <workItem from="1608560810667" duration="55000" />
+      <workItem from="1608560888973" duration="91000" />
+      <workItem from="1608560997754" duration="63000" />
+      <workItem from="1608561074690" duration="511000" />
+      <workItem from="1608561694833" duration="1092000" />
+      <workItem from="1608563059025" duration="43000" />
+      <workItem from="1608642083079" duration="1604000" />
     </task>
     <task id="LOCAL-00001" summary="Try to deploy.">
       <created>1607841850677</created>
@@ -133,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608459258936</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修复了导航栏点击无效的bug, 增加了脚注.">
+      <created>1608478306801</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608478306801</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +192,8 @@
     <MESSAGE value="Try to deploy." />
     <MESSAGE value="加入了使用说明." />
     <MESSAGE value="所有页面添加了导航栏." />
-    <option name="LAST_COMMIT_MESSAGE" value="所有页面添加了导航栏." />
+    <MESSAGE value="修复了导航栏点击无效的bug, 增加了脚注." />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了导航栏点击无效的bug, 增加了脚注." />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="183" key="#HTTP_Proxy" timestamp="1608440289799">
@@ -199,11 +214,11 @@
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="327" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.795@0.25.1440.795" timestamp="1607794775248" />
-    <state x="304" y="25" width="831" height="795" key="CommitChangelistDialog2" timestamp="1608459258658">
+    <state x="304" y="25" width="831" height="795" key="CommitChangelistDialog2" timestamp="1608478306589">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="304" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1608449945971" />
-    <state x="304" y="25" width="831" height="795" key="CommitChangelistDialog2/0.25.1440.795@0.25.1440.795" timestamp="1608459258658" />
+    <state x="304" y="25" width="831" height="795" key="CommitChangelistDialog2/0.25.1440.795@0.25.1440.795" timestamp="1608478306589" />
     <state x="507" y="233" key="FileChooserDialogImpl" timestamp="1608443113624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -272,11 +287,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="709" height="304" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1608444592864" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1608445195447">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="214" y="92" key="SettingsEditor" timestamp="1608562219195">
+      <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608445195447" />
-    <state x="229" y="92" key="SettingsEditor/0.25.1440.795@0.25.1440.795" timestamp="1608428882737" />
+    <state x="214" y="92" key="SettingsEditor/0.25.1440.795@0.25.1440.795" timestamp="1608562219195" />
     <state x="421" y="82" width="597" height="735" key="find.popup" timestamp="1607702156940">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

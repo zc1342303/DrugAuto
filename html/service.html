@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DrugAuto-联系客服</title>
 
   <!-- 在头部插入一下代码，注意，可能回导致与原本bootstrap模版冲突 -->
@@ -12,7 +13,11 @@
   <link href="../css/drugauto.css" rel="stylesheet">
   <style>
     #wechatQRImg {
-      width: 400px;
+      max-width: 300px;
+      alignment: center;
+    }
+    #wechatQT {
+      text-align: center;
     }
 
   </style>
@@ -24,9 +29,9 @@
 
 <main>
   <div class="container content"></div>
-    <div>
+    <div id="wechatQT">
       <p>扫码加微信，联系客服</p>
-      <img id="wechatQRImg" src="../img/wechat_service.jpeg"/>
+      <img id="wechatQRImg" src="../img/wechat_service.jpeg" alt="QR"/>
     </div>
   </div>
 
