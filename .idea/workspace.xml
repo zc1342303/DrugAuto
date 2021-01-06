@@ -17,23 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d862654b-5d54-4a9b-bef8-5792bf7f69de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/excel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/flow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rename.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/spectrum.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WebStorm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DrugAuto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/drugauto.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/drugauto.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads/appendix_v0.3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/downloads/DrugAuto_v1.0.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/component/README.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/component/README.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/component/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/component/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/manual.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manual.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/download.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/download.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +126,8 @@
       <workItem from="1609810431656" duration="495000" />
       <workItem from="1609810992765" duration="522000" />
       <workItem from="1609895804660" duration="7093000" />
-      <workItem from="1609939731534" duration="3064000" />
+      <workItem from="1609939731534" duration="3534000" />
+      <workItem from="1609945015621" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="Try to deploy.">
       <created>1607841850677</created>
@@ -178,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608644487109</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1. 完善了首页&#10;2. 使用教程也增加了流程图&#10;3. 更新app至v1.0">
+      <created>1609943247610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609943247610</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +218,8 @@
     <MESSAGE value="所有页面添加了导航栏." />
     <MESSAGE value="修复了导航栏点击无效的bug, 增加了脚注." />
     <MESSAGE value="1. 修复了部分页面没有响应移动端的bug.&#10;2. 修改了部分页面内容." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 修复了部分页面没有响应移动端的bug.&#10;2. 修改了部分页面内容." />
+    <MESSAGE value="1. 完善了首页&#10;2. 使用教程也增加了流程图&#10;3. 更新app至v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 完善了首页&#10;2. 使用教程也增加了流程图&#10;3. 更新app至v1.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="183" key="#HTTP_Proxy" timestamp="1608440289799">
@@ -246,11 +240,11 @@
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="327" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.795@0.25.1440.795" timestamp="1609772978274" />
-    <state x="304" y="25" width="831" height="795" key="CommitChangelistDialog2" timestamp="1608644486800">
+    <state x="304" y="25" width="831" height="795" key="CommitChangelistDialog2" timestamp="1609943246042">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state x="304" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1608449945971" />
-    <state x="304" y="25" width="831" height="795" key="CommitChangelistDialog2/0.25.1440.795@0.25.1440.795" timestamp="1608644486800" />
+    <state x="304" y="25" width="831" height="795" key="CommitChangelistDialog2/0.25.1440.795@0.25.1440.795" timestamp="1609943246042" />
     <state x="507" y="233" key="FileChooserDialogImpl" timestamp="1608443113624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
