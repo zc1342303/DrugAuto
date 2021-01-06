@@ -70,6 +70,12 @@ body {
   letter-spacing: -.05rem;
 }
 
+.featurette-image {
+  border: 2px solid #aaaaaa;
+  border-radius: 15px;
+  box-shadow: 8px 8px 5px #cecece;
+}
+
 /* Other Pages
 ------------------------- */
 .content {
