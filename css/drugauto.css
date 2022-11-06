@@ -80,6 +80,7 @@ body {
 ------------------------- */
 .content {
   padding-top: 3rem;
+  vertical-align: middle;
 }
 
 /* RESPONSIVE CSS
